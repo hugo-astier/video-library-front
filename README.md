@@ -1,10 +1,9 @@
 # Video Library: React / Hooks / Suspense
 
-Simple app created for learning purposes using React as well as its latest features: Hooks and Suspense.
-The app is a video library, with the possibility of adding, editing, or deleting movies according to the user's privileges.
+Simple app created for learning purposes using React as well as its latest features: Hooks and Suspense. It's a video library, with the possibility of adding, editing, or deleting movies according to the user's privileges.<br>
 It was initially a [tutorial](https://codewithmosh.com/p/mastering-react), but this tutorial wasn't using latest React's additions like Hooks and Suspense so I went ahead and modified the app to make use of them, and learnt them on the way.
 
-This repo is only the front-end part of the app, [the back-end (RESTful API)](https://github.com/hugo-astier/video-library-back) is completely separated.
+This repo is only the front-end part of the app, you can find the RESTful API back-end [here](https://github.com/hugo-astier/video-library-back).
 
 It uses:
 
@@ -17,7 +16,7 @@ It uses:
 ## Demo
 
 [Demo available here on Heroku](https://video-library-front.herokuapp.com/) <br>
-There is normal small delay the first time loading the app due to "waking-up" the Heroku dyno ([more info here](https://devcenter.heroku.com/articles/free-dyno-hours#dyno-sleeping))
+(There is a normal small delay the first time loading the app due to "waking-up" the Heroku dyno ([more info here](https://devcenter.heroku.com/articles/free-dyno-hours#dyno-sleeping)))
 
 ## Try it yourself
 
