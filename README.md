@@ -16,7 +16,15 @@ It uses:
 ## Demo
 
 [Demo available here on Heroku](https://video-library-front.herokuapp.com/) <br>
-(There is a normal small delay the first time loading the app due to "waking-up" the Heroku dyno ([more info here](https://devcenter.heroku.com/articles/free-dyno-hours#dyno-sleeping)))
+(There is a normal small delay the first time loading the app due to "waking-up" the Heroku dyno ([more info here](https://devcenter.heroku.com/articles/free-dyno-hours#dyno-sleeping)))<br><br>
+Privileges:
+
+- Guest: Can look through and search for movies
+- Registered user: Guest priveleges + can add and edit movies
+- Admin: Registered user privileges + can delete movies.<br>
+  For now there is only one admin user:
+  - email: admin@gmail.com
+  - password: 12345
 
 ## Try it yourself
 
