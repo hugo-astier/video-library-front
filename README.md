@@ -21,7 +21,7 @@ It uses:
 ## Try it yourself
 
 Pull the repo locally, then run `npm i` at the root to install `node_modules`.
-You also need to have mongoDB installed and running on your machine, as well as [the back-end](https://github.com/hugo-astier/video-library-back) running too.
+You also need to have mongoDB and [the back-end](https://github.com/hugo-astier/video-library-back) up and running on your machine too.
 
 Then, you can run:
 
