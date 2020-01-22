@@ -26,14 +26,14 @@ Privileges:
   - email: admin@gmail.com
   - password: 12345
 
-## Try it yourself
+## Setup
 
 Pull the repo locally, then run `npm i` at the root to install `node_modules`.
-You also need to have mongoDB and [the back-end](https://github.com/hugo-astier/video-library-back) up and running on your machine too.
+You also need to have mongoDB and [the back-end](https://github.com/hugo-astier/video-library-back) up and running on your machine too.<br>
 
 Then, you can run:
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -41,7 +41,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `npm run build`
+_Also_, to give admin privileges to a user, set directly in MongoDB to this user an extra property "isAdmin" to true(boolean).
+
+#### `npm run build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
